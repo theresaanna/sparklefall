@@ -346,16 +346,19 @@ MIT License - feel free to use in personal and commercial projects.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## 🎮 Live Demo
+
+[Check out the interactive demo](https://theresasumma.com/sparklefall) with live controls and presets!
+
 ## 🐛 Issues
 
-Found a bug? Please [create an issue](https://github.com/yourusername/sparklefall/issues) with a description and steps to reproduce.
+Found a bug? Please [create an issue](https://github.com/theresaanna/sparklefall/issues) with a description and steps to reproduce.
 
 ## 💖 Support
 
 If you like this project, please consider:
 - ⭐ Starring the repository
 - 🐦 Sharing on social media
-- ☕ [Buying me a coffee](https://buymeacoffee.com/yourusername)
 
 ## 🚀 Roadmap
 
@@ -369,4 +372,4 @@ If you like this project, please consider:
 
 ---
 
-Made with ✨ by [Your Name](https://github.com/yourusername)
+Made with ✨ by [Theresa Summa](https://github.com/theresaanna)

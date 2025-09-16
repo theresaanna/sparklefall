@@ -325,15 +325,17 @@ const sparkles = new SparkleFall({
         <footer>
             <p>Made with ✨ by SparkleFall</p>
             <div style="margin-top: 10px;">
-                <a href="https://github.com/yourusername/sparklefall">GitHub</a>
+                <a href="https://github.com/theresaanna/sparklefall">GitHub</a>
                 <a href="https://www.npmjs.com/package/sparklefall">NPM</a>
-                <a href="../README.md">Documentation</a>
+                <a href="https://github.com/theresaanna/sparklefall#readme">Documentation</a>
             </div>
         </footer>
     </div>
 
     <!-- Load SparkleFall library -->
-    <script src="../src/sparklefall.js"></script>
+    <!-- For local development: use ../src/sparklefall.js -->
+    <!-- For production: use CDN -->
+    <script src="https://unpkg.com/sparklefall@latest/dist/sparklefall.min.js"></script>
     
     <script>
         let sparkleInstance;
