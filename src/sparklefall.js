@@ -123,6 +123,11 @@ class SparkleFall {
   }
   
   createSparkle() {
+    // Check if container exists
+    if (!this.sparkleContainer) {
+      return;
+    }
+    
     // Check max sparkles limit
     if (this.sparkleCount >= this.config.maxSparkles) {
       return;
@@ -218,8 +223,10 @@ class SparkleFall {
     this.stop();
     
     // Remove all sparkles
-    const sparkles = this.sparkleContainer.querySelectorAll('.sparklefall-sparkle');
-    sparkles.forEach(sparkle => sparkle.remove());
+    if (this.sparkleContainer) {
+      const sparkles = this.sparkleContainer.querySelectorAll('.sparklefall-sparkle');
+      sparkles.forEach(sparkle => sparkle.remove());
+    }
     this.sparkleCount = 0;
   }
   
