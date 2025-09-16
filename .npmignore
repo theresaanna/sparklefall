@@ -1,0 +1,20 @@
+# Source files (we only ship dist)
+scripts/
+
+# Examples (users can get from GitHub)
+examples/
+
+# Development files
+.gitignore
+.eslintrc
+.prettierrc
+*.log
+*.lock
+.DS_Store
+.idea
+.vscode
+
+# Documentation sources
+docs/
+*.md
+!README.md
