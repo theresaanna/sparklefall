@@ -1,7 +1,7 @@
 /**
  * SparkleFall - Beautiful falling sparkle animations for your website
  * @version 1.0.0
- * @author Your Name
+ * @author Theresa Summa
  * @license MIT
  */
 
